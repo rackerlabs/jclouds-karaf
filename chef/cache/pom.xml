@@ -38,7 +38,7 @@ limitations under the License.
     <osgi.import>
       org.jclouds.chef*;version=${jclouds.chef.version},
       org.jclouds.karaf.cache*,
-      org.jclouds*;version=${jclouds.version},
+      org.jclouds*;version=${project.parent.version},
       *
     </osgi.import>
     <osgi.private>org.jclouds.karaf.cache.utils</osgi.private>
